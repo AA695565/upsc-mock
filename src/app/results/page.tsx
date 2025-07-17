@@ -1,10 +1,10 @@
+import { ResultsPage } from '@/components/ResultsPage';
 import { AuthProvider } from '@/components/AuthProvider';
-import { LoginForm } from '@/components/LoginForm';
 
-export default function Home() {
+export default function Results() {
   return (
     <AuthProvider>
-      <LoginForm />
+      <ResultsPage />
     </AuthProvider>
   );
 }

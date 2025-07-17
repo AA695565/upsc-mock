@@ -1,10 +1,10 @@
+import { Dashboard } from '@/components/Dashboard';
 import { AuthProvider } from '@/components/AuthProvider';
-import { LoginForm } from '@/components/LoginForm';
 
-export default function Home() {
+export default function DashboardPage() {
   return (
     <AuthProvider>
-      <LoginForm />
+      <Dashboard />
     </AuthProvider>
   );
 }
