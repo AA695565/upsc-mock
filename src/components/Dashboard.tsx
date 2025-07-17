@@ -116,7 +116,7 @@ export function Dashboard() {
               </div>
               <div className="ml-4">
                 <p className="text-sm font-medium text-gray-600">Average Score</p>
-                <p className="text-2xl font-semibold text-gray-900">{stats.averageScore.toFixed(1)}%</p>
+                <p className="text-2xl font-semibold text-gray-900">{(stats.averageScore || 0).toFixed(1)}%</p>
               </div>
             </div>
           </div>
